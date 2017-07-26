@@ -2,7 +2,8 @@ module Token
   class Payload
 
     ISSUER          = nil
-    EXPIRATION_TIME = 0
+    ISSUED_AT       = 946677600
+    EXPIRATION_TIME = 1577829600
     SUBJECT         = nil
     AUDIENCE        = nil
 
