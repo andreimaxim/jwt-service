@@ -4,10 +4,9 @@ module Token
     ISSUER          = nil
     EXPIRATION_TIME = 0
     SUBJECT         = nil
-    AUDIENCE        =
+    AUDIENCE        = nil
 
-      ALGO = 'RS256'.freeze
-
+    ALGO = 'RS256'.freeze
 
     def initialize
       @env = ENV.dup
