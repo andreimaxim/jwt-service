@@ -1,0 +1,20 @@
+<div class="simple-subscription-form">
+  <form>
+    <h4>Token</h4>
+    <p>Generate a development or QA token by entering a claim (like user ID value) below:</p>
+    <div class="input-group">
+      <input class="input-group-field"
+             type="username"
+             placeholder="user id"
+             name="u"
+             value="<%= @id %>"
+             <% if @token.nil? %>autofocus<% end %>
+             required />
+      <button class="button">Run</button>
+    </div>
+  </form>
+
+  <% if @token %>
+      <div id="token"><span><%= @token %></span></div>
+  <% end %>
+</div>
