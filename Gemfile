@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.3.3', engine: 'jruby', engine_version: '9.1.12.0'
+ruby '2.3.3', engine: 'jruby', engine_version: '9.1.17.0'
 
 gem 'sinatra', '~> 2.0'
 gem 'jwt', '~> 1.5.6'
